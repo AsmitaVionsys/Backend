@@ -42,7 +42,6 @@ const userSchema = new Schema(
             type: String,
             required: [true, 'Password is required'],
             minlength: 8,
-            select: false,
         },
         refreshToken: {
             type: String
